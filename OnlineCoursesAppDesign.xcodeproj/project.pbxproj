@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6416D12224D4E97E0040BB4D /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12124D4E97E0040BB4D /* CourseView.swift */; };
+		6416D12424D4EACF0040BB4D /* ForYouCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12324D4EACF0040BB4D /* ForYouCardView.swift */; };
+		6416D12624D4EB4B0040BB4D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12524D4EB4B0040BB4D /* TitleView.swift */; };
+		6416D12824D4EB880040BB4D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12724D4EB880040BB4D /* CardView.swift */; };
+		6416D12A24D4EC7C0040BB4D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12924D4EC7C0040BB4D /* WelcomeView.swift */; };
+		6416D12C24D4F7890040BB4D /* TopCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12B24D4F7890040BB4D /* TopCoursesView.swift */; };
+		6416D12E24D4F7B40040BB4D /* ForYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12D24D4F7B40040BB4D /* ForYouView.swift */; };
+		6416D13024D607850040BB4D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12F24D607850040BB4D /* BackgroundView.swift */; };
+		64C8A0F124D63F190039E584 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64C8A0F024D63F190039E584 /* README.md */; };
 		64E3137524D48FC20024C7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3137424D48FC20024C7FB /* AppDelegate.swift */; };
 		64E3137724D48FC20024C7FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3137624D48FC20024C7FB /* SceneDelegate.swift */; };
 		64E3137924D48FC20024C7FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3137824D48FC20024C7FB /* ContentView.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6416D12124D4E97E0040BB4D /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		6416D12324D4EACF0040BB4D /* ForYouCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouCardView.swift; sourceTree = "<group>"; };
+		6416D12524D4EB4B0040BB4D /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		6416D12724D4EB880040BB4D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6416D12924D4EC7C0040BB4D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6416D12B24D4F7890040BB4D /* TopCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoursesView.swift; sourceTree = "<group>"; };
+		6416D12D24D4F7B40040BB4D /* ForYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouView.swift; sourceTree = "<group>"; };
+		6416D12F24D607850040BB4D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		64C8A0F024D63F190039E584 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64E3137124D48FC20024C7FB /* OnlineCoursesAppDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineCoursesAppDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E3137424D48FC20024C7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64E3137624D48FC20024C7FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64C8A0F224D63F6C0039E584 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6416D12124D4E97E0040BB4D /* CourseView.swift */,
+				6416D12324D4EACF0040BB4D /* ForYouCardView.swift */,
+				6416D12524D4EB4B0040BB4D /* TitleView.swift */,
+				6416D12724D4EB880040BB4D /* CardView.swift */,
+				6416D12924D4EC7C0040BB4D /* WelcomeView.swift */,
+				6416D12B24D4F7890040BB4D /* TopCoursesView.swift */,
+				6416D12D24D4F7B40040BB4D /* ForYouView.swift */,
+				6416D12F24D607850040BB4D /* BackgroundView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		64E3136824D48FC20024C7FB = {
 			isa = PBXGroup;
 			children = (
+				64C8A0F024D63F190039E584 /* README.md */,
 				64E3137324D48FC20024C7FB /* OnlineCoursesAppDesign */,
 				64E3137224D48FC20024C7FB /* Products */,
 			);
@@ -56,6 +90,7 @@
 		64E3137324D48FC20024C7FB /* OnlineCoursesAppDesign */ = {
 			isa = PBXGroup;
 			children = (
+				64C8A0F224D63F6C0039E584 /* views */,
 				64E3137424D48FC20024C7FB /* AppDelegate.swift */,
 				64E3137624D48FC20024C7FB /* SceneDelegate.swift */,
 				64E3137824D48FC20024C7FB /* ContentView.swift */,
@@ -134,6 +169,7 @@
 			files = (
 				64E3138124D48FC40024C7FB /* LaunchScreen.storyboard in Resources */,
 				64E3137E24D48FC40024C7FB /* Preview Assets.xcassets in Resources */,
+				64C8A0F124D63F190039E584 /* README.md in Resources */,
 				64E3137B24D48FC40024C7FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6416D12824D4EB880040BB4D /* CardView.swift in Sources */,
+				6416D12424D4EACF0040BB4D /* ForYouCardView.swift in Sources */,
+				6416D13024D607850040BB4D /* BackgroundView.swift in Sources */,
+				6416D12C24D4F7890040BB4D /* TopCoursesView.swift in Sources */,
 				64E3137524D48FC20024C7FB /* AppDelegate.swift in Sources */,
+				6416D12A24D4EC7C0040BB4D /* WelcomeView.swift in Sources */,
 				64E3137724D48FC20024C7FB /* SceneDelegate.swift in Sources */,
 				64E3137924D48FC20024C7FB /* ContentView.swift in Sources */,
+				6416D12224D4E97E0040BB4D /* CourseView.swift in Sources */,
+				6416D12E24D4F7B40040BB4D /* ForYouView.swift in Sources */,
+				6416D12624D4EB4B0040BB4D /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rphlfc.OnlineCoursesAppDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -310,6 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rphlfc.OnlineCoursesAppDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
