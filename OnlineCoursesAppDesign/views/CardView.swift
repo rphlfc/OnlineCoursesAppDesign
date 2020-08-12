@@ -12,7 +12,6 @@ struct CardView: View {
     
     var body: some View {
         NavigationLink(destination: CourseView()) {
-            
             HStack {
                 VStack(alignment: .leading) {
                     HStack {

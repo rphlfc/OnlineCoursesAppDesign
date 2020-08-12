@@ -23,7 +23,7 @@ struct ContentView: View {
                                 .padding(.top, 16)
                             
                             ForYouView()
-                                .padding(.top, 16)
+                                .padding(.vertical, 16)
                         }
                         .frame(maxWidth: .infinity)
                         .background(Color.white)

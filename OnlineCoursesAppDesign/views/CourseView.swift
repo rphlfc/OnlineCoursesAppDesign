@@ -41,7 +41,7 @@ struct CourseView: View {
                     .cornerRadius(30)
                     .padding(16)
                     
-                    Spacer()
+                    Spacer().frame(minHeight: 60)
                 }
                 .frame(maxWidth: .infinity)
                 .background(Color.white)
@@ -88,7 +88,7 @@ struct CourseInfoRow: View {
                     Text("of interescting lectures")
                         .foregroundColor(Color.gray)
                 }
-                .padding(.top, 8)
+                .padding(.top, 4)
             }
             .padding(.leading, 8)
             
@@ -126,7 +126,6 @@ struct CourseHaderView: View {
                         .font(.system(size: 18, weight: .semibold))
                         .offset(x: -6)
                 }
-                .offset(y: -8)
             }
             .padding(.leading, 8)
             

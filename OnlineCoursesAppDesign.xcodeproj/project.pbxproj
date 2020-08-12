@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6406CC9624E49DCA009CA317 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406CC9224E49DCA009CA317 /* 1.png */; };
+		6406CC9724E49DCA009CA317 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406CC9324E49DCA009CA317 /* 4.png */; };
+		6406CC9824E49DCA009CA317 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406CC9424E49DCA009CA317 /* 3.png */; };
+		6406CC9924E49DCA009CA317 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6406CC9524E49DCA009CA317 /* 2.png */; };
 		6416D12224D4E97E0040BB4D /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12124D4E97E0040BB4D /* CourseView.swift */; };
 		6416D12424D4EACF0040BB4D /* ForYouCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12324D4EACF0040BB4D /* ForYouCardView.swift */; };
 		6416D12624D4EB4B0040BB4D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416D12524D4EB4B0040BB4D /* TitleView.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6406CC9224E49DCA009CA317 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		6406CC9324E49DCA009CA317 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		6406CC9424E49DCA009CA317 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6406CC9524E49DCA009CA317 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		6416D12124D4E97E0040BB4D /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		6416D12324D4EACF0040BB4D /* ForYouCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouCardView.swift; sourceTree = "<group>"; };
 		6416D12524D4EB4B0040BB4D /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
@@ -55,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6406CC9124E49D7B009CA317 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6406CC9224E49DCA009CA317 /* 1.png */,
+				6406CC9524E49DCA009CA317 /* 2.png */,
+				6406CC9424E49DCA009CA317 /* 3.png */,
+				6406CC9324E49DCA009CA317 /* 4.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		64C8A0F224D63F6C0039E584 /* views */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				64C8A0F024D63F190039E584 /* README.md */,
+				6406CC9124E49D7B009CA317 /* Screenshots */,
 				64E3137324D48FC20024C7FB /* OnlineCoursesAppDesign */,
 				64E3137224D48FC20024C7FB /* Products */,
 			);
@@ -137,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					64E3137024D48FC20024C7FB = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -168,7 +188,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E3138124D48FC40024C7FB /* LaunchScreen.storyboard in Resources */,
+				6406CC9724E49DCA009CA317 /* 4.png in Resources */,
+				6406CC9824E49DCA009CA317 /* 3.png in Resources */,
 				64E3137E24D48FC40024C7FB /* Preview Assets.xcassets in Resources */,
+				6406CC9924E49DCA009CA317 /* 2.png in Resources */,
+				6406CC9624E49DCA009CA317 /* 1.png in Resources */,
 				64C8A0F124D63F190039E584 /* README.md in Resources */,
 				64E3137B24D48FC40024C7FB /* Assets.xcassets in Resources */,
 			);
@@ -235,6 +259,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -295,6 +320,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
