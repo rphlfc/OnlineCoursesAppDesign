@@ -10,7 +10,7 @@ Implementação utilizando SwiftUI desse [layout do Dribbble](https://dribbble.c
 </p>
 
 ## Vídeo
-[Link para o YouTube](https://youtu.be/PFI9XqykSw0)
+[https://youtu.be/PFI9XqykSw0](https://youtu.be/PFI9XqykSw0)
 
 ## Requisitos
 - iOS 13 or superior
