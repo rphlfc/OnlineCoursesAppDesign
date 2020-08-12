@@ -7,6 +7,10 @@ Implementação utilizando SwiftUI desse [layout do Dribbble](https://dribbble.c
 ![Screenshot 3](/Screenshots/3.png?raw=true | width=200)
 ![Screenshot 4](/Screenshots/4.png?raw=true | width=200)
 
+<p align="center">
+  <img src="/Screenshots/1.png" width="200">
+</p>
+
 ## Vídeo
 [Link para o YouTube](https://youtu.be/PFI9XqykSw0)
 
