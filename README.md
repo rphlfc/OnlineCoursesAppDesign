@@ -2,13 +2,11 @@
 Implementação utilizando SwiftUI desse [layout do Dribbble](https://dribbble.com/shots/13933354-Online-Courses-App-Design).
 
 ## Screenshots
-![Screenshot 1](/Screenshots/1.png | width=200)
-![Screenshot 2](/Screenshots/2.png?raw=true | width=200)
-![Screenshot 3](/Screenshots/3.png?raw=true | width=200)
-![Screenshot 4](/Screenshots/4.png?raw=true | width=200)
-
 <p align="center">
   <img src="/Screenshots/1.png" width="200">
+  <img src="/Screenshots/2.png" width="200">
+  <img src="/Screenshots/3.png" width="200">
+  <img src="/Screenshots/4.png" width="200">
 </p>
 
 ## Vídeo
